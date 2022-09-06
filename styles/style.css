@@ -1,0 +1,14 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+
+body{
+  background-color: rgb(184, 152, 243);
+ }
+
+h3 {
+  font-family: 'Grandstander', cursive;
+}
+
+#outputDiv {
+  display: none;
+}
