@@ -4,15 +4,15 @@ $(document).ready(function () {
   $("#dogeOne").click(function () {
     $("#outputDiv").hide();
 
-    console.log("user clicked dogeOne ");
-    $("#outputMsg").text("You win! Much wow");
-    $("#outputDiv").toggle();
+    console.log("user clicked dogeo one");
+    $("#outputMsg").text("you win! so much wow slay");
+    $("#outputDiv").toggle().fadeIn(5000);
   });
 
   $("#dogeTwo").click(function () {
     $("#outputDiv").hide();
-    console.log("user clicked dogeTwo 2");
-    $("#outputMsg").text("you lose</3");
+    console.log("user clicked dogeTwo ");
+    $("#outputMsg").text("you lose sorry bro </3");
     $("#outputDiv").toggle();
   });
 });
